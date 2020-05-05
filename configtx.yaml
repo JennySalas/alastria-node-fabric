@@ -1,0 +1,9 @@
+Organizations:
+  - &`org`
+    Name: `org`MSP
+    # ID to load the MSP definition as
+    ID: `org`MSP
+    MSPDir: crypto-config/peerOrganizations/`org`.`com`/msp
+    AnchorPeers:
+      - Host: peer0.`org`.com
+        Port: 7051
